@@ -96,8 +96,9 @@ export function AppsShowcase() {
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {apps.map((app, index) => (
             <MotionView key={app.id} delay={0.1 * index}>
-              <Card className="group h-full transform-gpu overflow-hidden border-border/30 bg-card/60 backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10 hover:border-primary/20">
-                <CardHeader className="flex-row items-start gap-4 space-y-0">
+              <Card className="group h-full transform-gpu overflow-hidden border-white/10 bg-black/40 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(0,240,255,0.2)] hover:border-primary/50 hover:bg-black/60">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
+                <CardHeader className="relative z-10 flex-row items-start gap-4 space-y-0">
                   <Image
                     src={app.icon}
                     alt={`${app.name} icon`}

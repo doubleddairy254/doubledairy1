@@ -45,10 +45,11 @@ export function Technology() {
             <MotionView key={tech.name} delay={0.1 * index}>
               <button
                 onClick={() => setSelectedTech(tech)}
-                className="group flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-border/30 bg-card/60 p-6 text-center backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-accent/50 hover:shadow-xl hover:shadow-accent/5"
+                className="group relative overflow-hidden flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-white/10 bg-black/40 p-6 text-center backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(0,240,255,0.2)] hover:bg-black/60"
                 aria-label={`Learn more about ${tech.name}`}
               >
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-accent group-hover:text-accent-foreground">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
+                <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary shadow-[0_0_15px_rgba(0,240,255,0.2)] transition-all duration-500 group-hover:bg-primary group-hover:text-primary-foreground group-hover:shadow-[0_0_25px_rgba(0,240,255,0.6)]">
                   <div className="scale-150">{tech.icon}</div>
                 </div>
                 <h3 className="text-lg font-semibold">{tech.name}</h3>

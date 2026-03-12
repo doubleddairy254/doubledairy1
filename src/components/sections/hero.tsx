@@ -11,7 +11,7 @@ export function Hero() {
       <div className="container relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center">
         <MotionView delay={0}>
           <h1 className="font-headline text-5xl font-extrabold tracking-tighter sm:text-7xl md:text-8xl lg:text-9xl">
-            <span className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-br from-[#00f0ff] via-[#825aed] to-[#ff003c] bg-clip-text text-transparent">
               Double Dairy
             </span>
           </h1>
@@ -23,13 +23,13 @@ export function Hero() {
         </MotionView>
         <MotionView delay={0.4}>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <Button asChild size="lg" className="group text-lg">
+            <Button asChild size="lg" className="group text-lg shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all hover:shadow-[0_0_30px_rgba(0,240,255,0.6)] hover:scale-105">
               <Link href="#apps">
                 Explore Our Apps
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-lg">
+            <Button asChild size="lg" variant="outline" className="text-lg border-primary/50 hover:bg-primary/10 hover:border-primary shadow-[0_0_10px_rgba(0,240,255,0.1)] transition-all hover:shadow-[0_0_20px_rgba(0,240,255,0.3)] hover:scale-105">
               <Link href="#contact">Contact Us</Link>
             </Button>
           </div>

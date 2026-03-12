@@ -41,9 +41,10 @@ export function Features() {
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => (
             <MotionView key={feature.title} delay={0.1 * index}>
-              <Card className="h-full transform-gpu border-border/30 bg-card/60 text-center backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10 hover:border-primary/20">
-                <CardHeader>
-                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+              <Card className="relative overflow-hidden h-full transform-gpu border-white/10 bg-black/40 text-center backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(0,240,255,0.2)] hover:border-primary/50 hover:bg-black/60 group">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                <CardHeader className="relative z-10">
+                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 shadow-[0_0_15px_rgba(0,240,255,0.2)] transition-shadow duration-500 group-hover:shadow-[0_0_25px_rgba(0,240,255,0.5)]">
                     {feature.icon}
                   </div>
                   <CardTitle className="text-2xl font-bold">{feature.title}</CardTitle>
