@@ -1,28 +1,64 @@
 {
   "placeholderImages": [
     {
-      "id": "app-icon-weather",
-      "description": "An icon for a weather app.",
-      "imageUrl": "https://picsum.photos/seed/weather/128/128",
-      "imageHint": "app icon weather"
+      "id": "app-icon-eventtracker",
+      "description": "An icon for an event tracking app.",
+      "imageUrl": "https://picsum.photos/seed/event/128/128",
+      "imageHint": "app icon event"
     },
     {
-      "id": "app-icon-notes",
-      "description": "An icon for a notes app.",
-      "imageUrl": "https://picsum.photos/seed/notes/128/128",
-      "imageHint": "app icon notes"
+      "id": "app-icon-recipe",
+      "description": "An icon for a recipe app.",
+      "imageUrl": "https://picsum.photos/seed/recipe/128/128",
+      "imageHint": "app icon food"
     },
     {
-      "id": "app-icon-launcher",
-      "description": "An icon for a launcher app.",
-      "imageUrl": "https://picsum.photos/seed/launcher/128/128",
-      "imageHint": "app icon launcher"
+      "id": "app-icon-journal",
+      "description": "An icon for a journaling app.",
+      "imageUrl": "https://picsum.photos/seed/journal/128/128",
+      "imageHint": "app icon mindfulness"
     },
     {
-      "id": "app-icon-finance",
-      "description": "An icon for a finance app.",
-      "imageUrl": "https://picsum.photos/seed/finance/128/128",
-      "imageHint": "app icon finance"
+      "id": "app-icon-fitness",
+      "description": "An icon for a fitness app.",
+      "imageUrl": "https://picsum.photos/seed/fitness/128/128",
+      "imageHint": "app icon workout"
+    },
+    {
+      "id": "app-icon-books",
+      "description": "An icon for a book tracking app.",
+      "imageUrl": "https://picsum.photos/seed/books/128/128",
+      "imageHint": "app icon reading"
+    },
+    {
+      "id": "app-icon-travel",
+      "description": "An icon for a travel app.",
+      "imageUrl": "https://picsum.photos/seed/travel/128/128",
+      "imageHint": "app icon adventure"
+    },
+    {
+      "id": "app-icon-hydration",
+      "description": "An icon for a water tracking app.",
+      "imageUrl": "https://picsum.photos/seed/water/128/128",
+      "imageHint": "app icon health"
+    },
+    {
+      "id": "app-icon-music",
+      "description": "An icon for a music app.",
+      "imageUrl": "https://picsum.photos/seed/music/128/128",
+      "imageHint": "app icon guitar"
+    },
+    {
+      "id": "app-icon-astronomy",
+      "description": "An icon for an astronomy app.",
+      "imageUrl": "https://picsum.photos/seed/space/128/128",
+      "imageHint": "app icon stars"
+    },
+    {
+      "id": "app-icon-petcare",
+      "description": "An icon for a pet care app.",
+      "imageUrl": "https://picsum.photos/seed/pet/128/128",
+      "imageHint": "app icon animal"
     }
   ]
 }
