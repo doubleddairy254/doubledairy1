@@ -91,10 +91,10 @@ export function Contact() {
                 <div className="flex items-center gap-4">
                   <Mail className="h-6 w-6 text-primary" />
                   <a
-                    href="mailto:contact@doubledairy.digital"
+                    href="mailto:doubleddairy854@gmail.com"
                     className="text-lg hover:text-primary transition-colors"
                   >
-                    contact@doubledairy.digital
+                    doubleddairy854@gmail.com
                   </a>
                 </div>
               </div>

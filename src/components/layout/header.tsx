@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Layers, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import {
@@ -17,6 +17,20 @@ const navLinks = [
   { href: "#tech", label: "Technology" },
   { href: "#contact", label: "Contact" },
 ];
+
+const DDIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+        <linearGradient id="dd-grad-header" x1="0" y1="0" x2="32" y2="32">
+            <stop stopColor="hsl(var(--primary))"/>
+            <stop offset="1" stopColor="hsl(var(--accent))"/>
+        </linearGradient>
+        </defs>
+        <path d="M6 4H18C23.5228 4 28 8.47715 28 14V18C28 23.5228 23.5228 28 18 28H6V4Z" fill="url(#dd-grad-header)"/>
+        <path d="M14 11H18C19.6569 11 21 12.3431 21 14V18C21 19.6569 19.6569 21 18 21H14V11Z" fill="hsl(var(--background))"/>
+    </svg>
+);
+
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -65,8 +79,8 @@ export function Header() {
     >
       <div className="container mx-auto flex w-full max-w-7xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2" aria-label="Home">
-          <Layers className="h-7 w-7 text-primary" />
-          <span className="text-xl font-bold tracking-tight">Double Dairy</span>
+          <DDIcon className="h-7 w-7" />
+          <span className="text-xl font-bold tracking-tight">DoubleD Dairy</span>
         </Link>
 
         <NavLinks />
@@ -82,8 +96,8 @@ export function Header() {
             <SheetContent side="right" className="w-[80vw] bg-background/95 backdrop-blur-lg">
                <div className="flex justify-between items-center p-4 -m-4 mb-4 border-b">
                  <Link href="/" className="flex items-center gap-2" aria-label="Home" onClick={() => setIsMobileMenuOpen(false)}>
-                    <Layers className="h-7 w-7 text-primary" />
-                    <span className="text-xl font-bold tracking-tight">Double Dairy</span>
+                    <DDIcon className="h-7 w-7" />
+                    <span className="text-xl font-bold tracking-tight">DoubleD Dairy</span>
                  </Link>
                 <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
                   <X className="h-6 w-6" />

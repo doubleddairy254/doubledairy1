@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Layers } from "lucide-react";
 
 const socialLinks = [
   { name: "Google Play", href: "#", icon: <GooglePlayIcon /> },
@@ -7,17 +6,31 @@ const socialLinks = [
   { name: "Twitter", href: "#", icon: <TwitterIcon /> },
 ];
 
+const DDIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+        <linearGradient id="dd-grad-footer" x1="0" y1="0" x2="32" y2="32">
+            <stop stopColor="hsl(var(--primary))"/>
+            <stop offset="1" stopColor="hsl(var(--accent))"/>
+        </linearGradient>
+        </defs>
+        <path d="M6 4H18C23.5228 4 28 8.47715 28 14V18C28 23.5228 23.5228 28 18 28H6V4Z" fill="url(#dd-grad-footer)"/>
+        <path d="M14 11H18C19.6569 11 21 12.3431 21 14V18C21 19.6569 19.6569 21 18 21H14V11Z" fill="hsl(var(--background))"/>
+    </svg>
+);
+
+
 export function Footer() {
   return (
     <footer className="border-t border-border/50 bg-background/50">
       <div className="container mx-auto max-w-7xl px-4 py-8">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
-            <Layers className="h-6 w-6 text-primary" />
-            <span className="text-lg font-semibold">Double Dairy</span>
+            <DDIcon className="h-6 w-6" />
+            <span className="text-lg font-semibold">DoubleD Dairy</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Double Dairy Digital. All rights reserved.
+            &copy; {new Date().getFullYear()} DoubleD Dairy Digital. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (

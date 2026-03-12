@@ -1,11 +1,11 @@
-# **App Name**: Double Dairy Digital
+# **App Name**: Doubled Dairy Digital
 
 ## Core Features:
 
-- Interactive Hero Section: Dynamic hero section with 'Double Dairy' title, 'Building innovative mobile experiences' subtitle, clickable calls-to-action, and subtle animated 3D floating elements in the background.
-- Dynamic App Showcase: A responsive grid layout displaying Double Dairy's mobile applications, with each card featuring an app icon, name, description, and a button linking to Google Play. Cards animate into view on scroll.
-- Comprehensive Brand Overview: Dedicated sections ('About', 'Technology', 'Features') detailing Double Dairy's mission, advanced tech stack (React Native, Expo), and core values (Performance, Innovation, User-focused design, Continuous Improvement).
-- Integrated Contact & Social Links: A dedicated contact section including organization email, a functional contact form for inquiries, and direct links to Double Dairy's social media and Google Play Store profiles.
+- Interactive Hero Section: Dynamic hero section with 'Doubled Dairy' title, 'Building innovative mobile experiences' subtitle, clickable calls-to-action, and subtle animated 3D floating elements in the background.
+- Dynamic App Showcase: A responsive grid layout displaying Doubled Dairy's mobile applications, with each card featuring an app icon, name, description, and a button linking to Google Play. Cards animate into view on scroll.
+- Comprehensive Brand Overview: Dedicated sections ('About', 'Technology', 'Features') detailing Doubled Dairy's mission, advanced tech stack (React Native, Expo), and core values (Performance, Innovation, User-focused design, Continuous Improvement).
+- Integrated Contact & Social Links: A dedicated contact section including organization email, a functional contact form for inquiries, and direct links to Doubled Dairy's social media and Google Play Store profiles.
 - AI-Powered Tech Explainer Tool: An interactive tool that utilizes AI to provide brief, jargon-free explanations for complex mobile technologies mentioned within the 'Technology' section, enhancing user understanding.
 - Adaptive & Responsive Layout: The entire website design is fully responsive, ensuring optimal display and functionality across mobile phones, tablets, and desktop computers.
 - Advanced UI Animations: Implementation of smooth scroll-triggered animations (Framer Motion), parallax scrolling, subtle 3D elements (Three.js/React Three Fiber), animated gradients, interactive hover effects, and smooth page transitions.

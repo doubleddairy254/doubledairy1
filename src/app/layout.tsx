@@ -18,12 +18,12 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Double Dairy Digital | Innovative Mobile Experiences',
-  description: 'Double Dairy builds modern, high-performance Android applications using advanced technologies and intuitive, user-focused design.',
-  keywords: ['mobile apps', 'android development', 'react native', 'expo', 'app development', 'double dairy'],
-  authors: [{ name: 'Double Dairy' }],
-  creator: 'Double Dairy',
-  publisher: 'Double Dairy',
+  title: 'DoubleD Dairy Digital | Innovative Mobile Experiences',
+  description: 'DoubleD Dairy builds modern, high-performance Android applications using advanced technologies and intuitive, user-focused design.',
+  keywords: ['mobile apps', 'android development', 'react native', 'expo', 'app development', 'doubled dairy'],
+  authors: [{ name: 'DoubleD Dairy' }],
+  creator: 'DoubleD Dairy',
+  publisher: 'DoubleD Dairy',
   icons: {
     icon: '/icon.svg',
   },
