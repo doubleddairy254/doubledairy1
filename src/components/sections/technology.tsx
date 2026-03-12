@@ -45,7 +45,7 @@ export function Technology() {
             <MotionView key={tech.name} delay={0.1 * index}>
               <button
                 onClick={() => setSelectedTech(tech)}
-                className="group flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-border/50 bg-card/50 p-6 text-center backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-accent hover:shadow-2xl hover:shadow-accent/10"
+                className="group flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-border/30 bg-card/60 p-6 text-center backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-accent/50 hover:shadow-xl hover:shadow-accent/5"
                 aria-label={`Learn more about ${tech.name}`}
               >
                 <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-accent group-hover:text-accent-foreground">

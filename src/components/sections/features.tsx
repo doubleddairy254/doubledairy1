@@ -41,7 +41,7 @@ export function Features() {
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => (
             <MotionView key={feature.title} delay={0.1 * index}>
-              <Card className="h-full transform-gpu border-border/50 bg-card/50 text-center backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20">
+              <Card className="h-full transform-gpu border-border/30 bg-card/60 text-center backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10 hover:border-primary/20">
                 <CardHeader>
                   <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
                     {feature.icon}

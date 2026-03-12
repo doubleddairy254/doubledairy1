@@ -11,13 +11,13 @@ export function Hero() {
       <div className="container relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center">
         <MotionView delay={0}>
           <h1 className="font-headline text-5xl font-extrabold tracking-tighter sm:text-7xl md:text-8xl lg:text-9xl">
-            <span className="bg-gradient-to-br from-gray-200 to-gray-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-transparent">
               Double Dairy
             </span>
           </h1>
         </MotionView>
         <MotionView delay={0.2}>
-          <p className="font-body mx-auto mt-4 max-w-2xl text-lg text-foreground/70 sm:text-xl md:text-2xl">
+          <p className="font-body mx-auto mt-4 max-w-2xl text-lg text-foreground/80 sm:text-xl md:text-2xl">
             Building innovative mobile experiences
           </p>
         </MotionView>

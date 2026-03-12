@@ -38,7 +38,7 @@ export function TechExplainerDialog({ technology, isOpen, onClose }: TechExplain
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[425px] bg-card/80 backdrop-blur-lg">
+      <DialogContent className="sm:max-w-[425px] border-border/50 bg-card/95 backdrop-blur-sm">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-3 text-2xl">
             {technology?.icon}

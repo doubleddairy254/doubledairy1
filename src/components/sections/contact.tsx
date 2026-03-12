@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormStatus, useFormState } from "react-dom";
+import { useFormStatus, useActionState } from "react-dom";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -41,7 +41,7 @@ function SubmitButton() {
 }
 
 export function Contact() {
-  const [state, formAction] = useFormState(submitContactForm, null);
+  const [state, formAction] = useActionState(submitContactForm, null);
   const { toast } = useToast();
 
   const form = useForm<z.infer<typeof contactFormSchema>>({
@@ -101,7 +101,7 @@ export function Contact() {
             </div>
           </MotionView>
           <MotionView delay={0.4}>
-            <Card className="border-border/50 bg-card/50 backdrop-blur-xl">
+            <Card className="border-border/30 bg-card/60 backdrop-blur-lg">
               <CardHeader>
                 <CardTitle>Send us a message</CardTitle>
                 <CardDescription>We'll get back to you as soon as possible.</CardDescription>
