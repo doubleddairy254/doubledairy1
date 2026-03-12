@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "app-icon-weather",
+      "description": "An icon for a weather app.",
+      "imageUrl": "https://picsum.photos/seed/weather/128/128",
+      "imageHint": "app icon weather"
+    },
+    {
+      "id": "app-icon-notes",
+      "description": "An icon for a notes app.",
+      "imageUrl": "https://picsum.photos/seed/notes/128/128",
+      "imageHint": "app icon notes"
+    },
+    {
+      "id": "app-icon-launcher",
+      "description": "An icon for a launcher app.",
+      "imageUrl": "https://picsum.photos/seed/launcher/128/128",
+      "imageHint": "app icon launcher"
+    },
+    {
+      "id": "app-icon-finance",
+      "description": "An icon for a finance app.",
+      "imageUrl": "https://picsum.photos/seed/finance/128/128",
+      "imageHint": "app icon finance"
+    }
+  ]
 }
