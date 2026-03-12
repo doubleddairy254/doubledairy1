@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Double Dairy' }],
   creator: 'Double Dairy',
   publisher: 'Double Dairy',
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
