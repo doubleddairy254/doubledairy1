@@ -3,7 +3,7 @@
     {
       "id": "app-icon-eventtracker",
       "description": "An icon for an event tracking app.",
-      "imageUrl": "https://picsum.photos/seed/event/128/128",
+      "imageUrl": "/app-icon.png",
       "imageHint": "app icon event"
     },
     {
