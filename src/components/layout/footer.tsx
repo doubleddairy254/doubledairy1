@@ -27,11 +27,14 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
             <DDIcon className="h-6 w-6" />
-            <span className="text-lg font-semibold">DoubleD Dairy</span>
+            <span className="text-lg font-semibold">DoubleDDairy</span>
           </div>
-          <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} DoubleD Dairy Digital. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground sm:flex-row sm:gap-4">
+            <p>&copy; {new Date().getFullYear()} DoubleDDairy Digital. All rights reserved.</p>
+            <Link href="/privacy-policy" className="transition-colors hover:text-primary">
+              Privacy Policy
+            </Link>
+          </div>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (
               <Link

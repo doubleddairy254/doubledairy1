@@ -12,7 +12,7 @@ export function Hero() {
         <MotionView delay={0}>
           <h1 className="font-headline text-5xl font-extrabold tracking-tighter sm:text-7xl md:text-8xl lg:text-9xl">
             <span className="bg-gradient-to-br from-[#00f0ff] via-[#825aed] to-[#ff003c] bg-clip-text text-transparent">
-              DoubleD Dairy
+              DoubleDDairy
             </span>
           </h1>
         </MotionView>

@@ -11,7 +11,7 @@ export function About() {
               Who We Are
             </h2>
             <p className="relative z-10 mt-6 text-lg text-muted-foreground sm:text-xl">
-              DoubleD Dairy is an organization dedicated to crafting modern Android applications. We thrive on leveraging advanced technologies and intuitive design to create mobile experiences that are not only powerful and performant but also a delight to use. Our passion is to push the boundaries of what's possible on mobile.
+              DoubleDDairy is an organization dedicated to crafting modern Android applications. We thrive on leveraging advanced technologies and intuitive design to create mobile experiences that are not only powerful and performant but also a delight to use. Our passion is to push the boundaries of what's possible on mobile.
             </p>
           </div>
         </MotionView>

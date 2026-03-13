@@ -80,7 +80,7 @@ export function Header() {
       <div className="container mx-auto flex w-full max-w-7xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2" aria-label="Home">
           <DDIcon className="h-7 w-7" />
-          <span className="text-xl font-bold tracking-tight">DoubleD Dairy</span>
+          <span className="text-xl font-bold tracking-tight">DoubleDDairy</span>
         </Link>
 
         <NavLinks />
@@ -97,7 +97,7 @@ export function Header() {
                <div className="flex justify-between items-center p-4 -m-4 mb-4 border-b">
                  <Link href="/" className="flex items-center gap-2" aria-label="Home" onClick={() => setIsMobileMenuOpen(false)}>
                     <DDIcon className="h-7 w-7" />
-                    <span className="text-xl font-bold tracking-tight">DoubleD Dairy</span>
+                    <span className="text-xl font-bold tracking-tight">DoubleDDairy</span>
                  </Link>
                 <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
                   <X className="h-6 w-6" />
